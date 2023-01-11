@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Float y Clear</title>
     <meta charset="utf-8" /> 
+    <style>
+      p.naranja{
+        background-color: orange;
+        display: inline-block;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        float: left;
+        }
+      p.rojo{
+       background-color: red;
+       display: inline-block;
+       width: 20%;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       
+        
+      }
+      p.verde{
+        background-color: green;
+      }
+      div#wrapper-right p.naranja  {
+        margin-left: 30cm;
+        float: right;
+      }
+      div#wrapper-right p.rojo  {
+        margin-left: 30cm;
+      }
+    </style>
   </head>
   <body>
     <div id="wrapper-left">
